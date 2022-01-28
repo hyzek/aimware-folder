@@ -1,0 +1,15 @@
+
+local clantag_set = "Perplex.pw"
+
+local function ExampleDrawingHook()
+    draw.Color( 0, 0, 0, 170 );
+    draw.FilledRect( 4, 4, 157, 25 )
+    draw.Color( 237, 203, 31 );
+    draw.FilledRect( 6, 6, 155, 7 )
+    draw.Color( 255, 255, 255, 210 );
+    draw.Text( 10, 10, "Perplex.pw | Leo | HvH" );
+
+end
+
+callbacks.Register( "Draw", "ExampleDrawingHook", ExampleDrawingHook );
+--237, 206, 31
